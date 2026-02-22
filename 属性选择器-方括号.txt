@@ -1,0 +1,66 @@
+属性选择器：方括号
+属性选择器:
+包含属性
+[attribute]
+img[alt]
+
+完全等于
+<input class="a1 a2" >
+jQuery('[class="a1 a2"]').length
+等于1
+jQuery('[class="a2 a1"]').length
+等于0
+
+包含指定词汇，空格分割
+attribute~="value"
+[class~="button"]
+<div class="primary button"></div>
+
+分割连字符-
+[lang|="en"]
+<p lang="en">Hello</p>
+<div lang="en-US">Hi</div>
+匹配不到
+<div lang="zh-CN en-US">Hi</div>
+
+指定值开头^
+[attribute^="value"]
+[href^="https://"]
+
+指定值结尾^
+[href$=".pdf"]
+
+包含指定值
+[attribute="value"]
+[href*="example"]
+
+忽略大小写
+[type="text" i]
+
+与：
+组合使用
+a[href][target="_blank"]
+
+或：
+逗号
+[data-error], .error
+
+非：
+:not
+:not([class*="disabled"])
+data!
+
+^：脱字号
+~：Tilde，波浪号
+：：colon，冒号
+有属性([attribute])
+全等（=，完全相同）
+从头到尾(caret-头，dollar~结尾)
+薄孔竖横分割（~空格分割，|，-分割）
+星任意(*，任意)
+可爱靠后不分大小写(空格i放在后面，忽略大小写)
+
+外部与或非（在方括号外部实现与或非）
+育良种（两个中括号）
+或都好（，逗号）
+飞猫弄小号（:not()）

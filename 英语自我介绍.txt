@@ -1,0 +1,12 @@
+英语自我介绍
+
+Hello, my name is Li. I graduated from xx in China, and have worked for 8 years at an IT company in Shenzhen developing e-commerce websites. I have also obtained N2 certification in 2016 and N1 certification in 2018.
+
+In development, I have experience using languages like C++, PHP, Python, HTML, CSS and JavaScript to build software based on the Magento 2 framework. I also have experience building systems using cloud services like AWS and Cloudflare.
+（experience using组合，eu组合）
+（状前状后，using，building）
+
+
+In addition to technical skills, I believe teamwork abilities are very important. I have strong teamwork skills, and can communicate smoothly with my frontend colleagues at my current company to quickly complete tasks.
+（smoothly后quickly前，事后取钱）
+It's a pleasure to meet you. I look forward to working with you.
