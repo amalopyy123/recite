@@ -1,0 +1,64 @@
+露娜笑死爷了
+ln(小s)源文件 link
+htop可以点表头
+远程拷贝收藏品
+（远程拷贝scp）
+:[range]s/{pattern}/{string}/[flags] [count]
+%s/p/s/g
+白色胁迫写诗写歌
+备份cp -r  source destination
+被封产品热水袋
+export http_proxy=
+export https_proxy=
+临时代理，输出两豪横喷灯
+临时代理，输出两黑社会喷灯
+awk，引号内代码块，打印dollar five
+awk '{print $5}'
+尾部跟随，n行文件
+tail -f -n 行 file
+f: following
+n: number
+[\s\S]*?
+总括瑟瑟新闻，匹配多行
+gzip xxx
+gunzip xxx.gz
+柜子排源文件，滚珠瓶压缩包
+cron
+分时日月星（行）
+/etc/environment
+/etc/profile
+ee环境
+一批人复杂初始化
+docker logs --tail 100
+doro双核尾数
+一横一字符，两横完整参数
+覆盖内容cat /dev/null不用重启释放句柄
+府内cd脑补冲死局
+sed -i "s/\\'/''/g" puyi247a2l5.sql
+
+sed -n '起始行号,结束行号p; 结束行号q' 文件名
+打印 my_file.txt 文件中从第 5 行到第 10 行，并在第 10 行后退出
+sed -n '5,10p; 10q' my_file.txt
+from comma to print semicolon to quit
+打印色度还能表达式，发错图片，上头清文件
+
+替换内容
+sed -i 表达式 文件，--debug，s/pattern/string/g
+(-i --in-place)
+替换色调还别问，狠狠debug，手写贫血锁血挂
+
+
+shell在双引号里面被预处理的字符：
+` (反引号),\ (反斜杠)," (双引号),$ (美元符号),! (感叹号),* 和 @ (星号和 at 符号)
+反淫反邪双赢没敢性爱
+
+BASE指定URL的基准
+<base href="https://yourdomain.com/path/to/">
+包含直邮基准
+
+SELECT LAST_INSERT_ID()
+
+备份文件夹
+docker docker-compose.yml里面是
+host.docker.internal
+而不是127.0.0.1

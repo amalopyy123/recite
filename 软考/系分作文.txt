@@ -1,0 +1,143 @@
+分论点：正面不好切就反面切
+凑字数：前因后果，一正一反，文档，分论点互补
+无中生有，整些东西给旧系统
+
+螺旋模型：划分阶段，风险，与其它开发模型结合
+（分阶段，分词器，store pick up，checkout 顺序）
+
+
+让virtual product不能继承simple product:
+同步，virtual product不出现在保修单
+
+flat rete
+table rate
+weight vs price
+subtotal vs price
+mysql vs opensearch
+文件锁 vs redis
+三大分词器
+
+
+开发顺序？
+
+云原生—doctor—微服务
+
+操作可行性：弹到shipping cart
+
+万能段：catalog price rule, sales rule
+
+
+测试:jmeter，超卖，分布式，selenium
+
+可能性：界刂刀，数据库utf8mb4
+
+
+微服务：
+划分
+（划分系统 优先级和频率有差异 限流 提前机关reindex）
+分层
+（表现层 服务层 域名层 基础设施层）
+限制策略
+（继续角色的访问限制 reindex缓存 提前计算价格 限制返回结果大小）
+
+
+simple product、configurable product、bundle product、group product、virtual prouct
+
+
+分层
+分模组
+分product
+
+
+法律：Apache更改许可证
+
+数据库vs opensearch
+分词器：ik, smart_cn, cjk
+
+
+法律：邮箱 短信攻击 搜索
+
+store pickup：先选shipping method
+
+
+payment email
+
+风险：节日
+
+
+
+
+限制：
+jwt、基于角色、计划任务、限制返回角色的大小
+
+模式
+观察者模式（下单），分作用域
+工厂
+适配器
+解释器
+
+架构风格：
+分层
+集群
+事件驱动
+解释器
+
+分rule，category rule、sales rule
+
+可靠性：
+集群冗余
+防卫式程序设计
+（异步同步到POS）
+查错设计
+（另一条cron job检查超时任务）
+
+整合暴露、服务注册
+rbac
+资源树确定权限
+
+SOA：
+分层
+
+集成：
+分层
+控制集成
+界面集成
+
+测试：
+敏捷开发
+黑盒测试
+测试先行
+
+信息系统的开发方法
+原型化方法(Shopping cart, shopping cart item)
+面向对象的方法（Eav模型，5种产品类型）
+面向服务的方法（API进行集成，分层，基于角色，注册服务，查看暴露的服务）
+
+需求分析方法
+结构化分析方法（系统模块，加详细叙述）
+面向对象的分析方法（Eav模型，5种产品类型）
+
+需求获取方法
+收集资料（系统模块，加详细叙述）
+联合需求计划（我方作为数据中心，而不用网状结构）
+用户访谈（五种product）
+
+可行性分析
+法律可行性分析（邮件、短信、验证码，搜索推荐）
+技术可行性分析（smartcn、ik和cj）
+用户使用可行性（界面集成）
+
+瀑布模型
+划分里程碑
+风险分析（三个分词器，影响成本）
+结合使用其它开发模型（原型模型+store pickup）
+
+RUP
+初始阶段（用例图+选择shiping method下单流程）
+细化阶段（确定项目的架构，排除高风险的因素，集群+分层）
+构建阶段（项目进度，三个分词器，保持沟通）
+
+
+黑测试盒：海外免运费sales rule
+白盒测试：选择shipping method的各种分支
+性能测试：jmeter、new relic，索引，apache子进程
