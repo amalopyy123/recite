@@ -1003,6 +1003,7 @@ restart：
 监督干系人参与
 
 干果死贵管监港餐
+后面三个餐椅（参与）
 
 沟通管理过程
 规划沟通管理
@@ -1082,61 +1083,61 @@ The professor's opinion produced the opposite consequence.
 monotonous,melody,pervade,arena
 monotonous melody pervades the arena
 
-aqua /ɑ?kw?/
+aqua /ɑːkwə/
 湖绿色
 
-professor /pr??fes?(r)/
+professor /prəˈfesə(r)/
 教授
-opinion /??p?nj?n/
+opinion /əˈpɪnjən/
 意见；看法（名词）
-produce /kɑ?ns?kwens/
+produce /kɑːnsɪkwens/
 产生了
-opposite /?ɑ?p?z?t/
+opposite /ˈɑːpəzɪt/
 相反的
-consequence /kɑ?ns?kwens/
+consequence /kɑːnsɪkwens/
 结果
 
-monotonous /m??nɑ?t?n?s/
+monotonous /məˈnɑːtənəs/
 单调的，乏味的（形容词）
-melody /?mel?di/
+melody /ˈmelədi/
 旋律；曲调（名词）[音标标注]
-pervade /p?r?ve?d/
+pervade /pərˈveɪd/
 弥漫
-arena /??ri?n?/
+arena /əˈriːnə/
 竞技场
 
-observe /?b?z??v/
+observe /əbˈzɜːv/
 观察；遵守（动词）
-random /?r?nd?m/
+random /ˈrændəm/
 随机的；任意的（形容词）
-phantom /?f?nt?m/
+phantom /ˈfæntəm/
 幽灵（名词）
-phenomenon /f??n?m.?.n?n/
+phenomenon /fəˈnɒm.ɪ.nən/
 现象
 
-against /??ɡenst/
+against /əˈɡenst/
 反对
-common /?k?m?n/
+common /ˈkɒmən/
 常见的；共有的（形容词）/ 公共用地（名词）
-philosophy /f??l?s?fi/
+philosophy /fɪˈlɒsəfi/
 哲学；人生观（名词）
-methodology /?meθ?d?ɑ?l?d?i/
+methodology /ˌmeθədˈɑːlədʒi/
 方法论（名词）
 
 观察随机的幽灵现象
 反对常见的哲学方法论
 
-confront /k?n?fr?nt/
+confront /kənˈfrʌnt/
 面对
-conqueror /?kɑ??k?r?r/
+conqueror /ˈkɑːŋkərər/
 征服者（名词）
-provocation /?pr?v??ke??n/
+provocation /ˌprɒvəˈkeɪʃn/
 挑衅；激怒（名词）
 
-purpose /?p??p?s/
+purpose /ˈpɜːpəs/
 目的；用途（名词）
-agitate /??d??te?t/
-chocolate /?t??kl?t/
+agitate /ˈædʒɪteɪt/
+chocolate /ˈtʃɒklət/
 巧克力；深褐色（名词）
 
 面对征服者挑衅
@@ -1147,52 +1148,52 @@ confront the conqueror's provocation
 purpose, agitate, chocolate
 agitate chocolate on purpose
 
-today /t??de?/
+today /təˈdeɪ/
 今天；现今（名词/副词）
-doctor /?d?kt?/
+doctor /ˈdɒktə/
 医生；博士（名词）
-police /p??li?s/
+police /pəˈliːs/
 警察；警方（名词）
-pilot /?pa?l?t/
+pilot /ˈpaɪlət/
 飞行员；试点（名词）/ 驾驶（动词）
-collaborate /k??l?b?re?t/
+collaborate /kəˈlæbəreɪt/
 合作；协作（动词）
-composition /?k?mp??z??n/
+composition /ˌkɒmpəˈzɪʃn/
 作文；组成；作曲（名词）
-commemorate /k??mem?re?t/
+commemorate /kəˈmeməreɪt/
 纪念；庆祝（动词）
-competitor /k?m?pet?t?r/
+competitor /kəmˈpetɪtər/
 竞争者
 今天医生警察飞行员
 合作作曲纪念竞争者
 
-official /??f??l/
+official /əˈfɪʃl/
 官方的；官员（形容词/名词）
-computer /k?m?pju?t?/
+computer /kəmˈpjuːtə/
 计算机；电脑（名词）
-lesson /?lesn/
+lesson /ˈlesn/
 课程；教训（名词）
-automatic /???t??m?t?k/
+automatic /ˌɔːtəˈmætɪk/
 自动的；无意识的（形容词）/ 自动装置（名词）
-correct /k??rekt/
+correct /kəˈrekt/
 正确的（形容词）/ 纠正（动词）
-conduct /k?n?d?kt/
+conduct /kənˈdʌkt/
 行为；管理（名词）/ 引导；指挥（动词）
 
 官方的计算机课程
 自动纠正行为（规范的行为）
 
-protect /pr??tekt/
+protect /prəˈtekt/
 保护；防卫（动词）
-tortoise /?t??t?s/
+tortoise /ˈtɔːtəs/
 陆龟（名词）[区别于海龟 turtle]
-behavior /b??he?vj?r/
+behavior /bɪˈheɪvjər/
 行为
-harmony /?hɑ?m?ni/
+harmony /ˈhɑːməni/
 和谐；和声（名词）
-society /s??sa??ti/
+society /səˈsaɪəti/
 社会；社团（名词）
-consensus /k?n?sens?s/
+consensus /kənˈsensəs/
 共识；一致意见（名词）
 
 保护陆龟行为
@@ -1279,7 +1280,7 @@ I/O 多路复用：单线程处理海量并发连接。
 
 colour: n.颜色
 coloured: adj.有颜色的
-tricolour:/?tra?k?l?r/ n.三色旗
+tricolour:/ˈtraɪkʌlər/ n.三色旗
 colourless: adj.无色的
 recolour: v.重新上色
 uncoloured: adj.未着色的

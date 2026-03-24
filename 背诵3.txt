@@ -20,9 +20,12 @@
 （是夕：这晚上）
 因为长句，歌以赠之，凡六百一十六言，命曰《琵琶行》。
 （因为长句，因为—because，闭口，闭口唱句歌）
+
 浔阳江头夜送客，枫叶荻花秋瑟瑟。
 主人下马客在船，举酒欲饮无管弦。
 醉不成欢惨将别，别时茫茫江浸月。
+
+
 忽闻水上琵琶声，主人忘归客不发。
 寻声暗问弹者谁，琵琶声停欲语迟。
 移船相近邀相见，添酒回灯重开宴。
@@ -32,7 +35,7 @@
 转轴拨弦三两声，未成曲调先有情。
 弦弦掩抑声声思，似诉平生不得志。
 低眉信手续续弹，说尽心中无限事。
-（似诉—说尽）
+（续续弹—吓吓他，似诉—说尽）
 轻拢慢捻抹复挑，初为《霓裳》后《六幺》。(六幺 一作：绿腰)
 大弦嘈嘈如急雨，小弦切切如私语。
 嘈嘈切切错杂弹，大珠小珠落玉盘。
@@ -42,10 +45,14 @@
 （兵权吝啬献女角，女角不通圣战歇）
 别有幽愁暗恨生，此时无声胜有声。
 银瓶乍破水浆迸，铁骑突出刀枪鸣。
+（水浆迸—水将迸）
 曲终收拨当心画，四弦一声如裂帛。
 （当心画：用拨子在琵琶的中部划过四弦，是一曲结束时经常用到的右手手法。）
 东船西舫悄无言，唯见江心秋月白。
 （专线敌情，稻草间兵变因驱动）
+
+
+
 沉吟放拨插弦中，整顿衣裳起敛容。
 （沉吟放拨—抽样分布）
 （沉吟放拨插弦中—诚宜反驳查险种）
@@ -73,6 +80,7 @@
 梦啼妆泪红阑干：猛t装累猴来干）
 （梦啼妆泪红阑干—明天再来聊）
 （臣子识趣，五点进帝门，删去眼（（三缺一））
+
 我闻琵琶已叹息，又闻此语重唧唧。
 （又闻此语重唧唧—又闻此女重唧唧）
 同是天涯沦落人，相逢何必曾相识！
@@ -89,14 +97,19 @@
 今夜闻君琵琶语，如听仙乐耳暂明。
 莫辞更坐弹一曲，为君翻作《琵琶行》。
 （莫辞更坐弹一曲—每次耕作弹一曲）
+
 感我此言良久立，却坐促弦弦转急。
 （却坐：退回到原处）
 凄凄不似向前声，满座重闻皆掩泣。
 （似—声：死—生）
 座中泣下谁最多？江州司马青衫湿。
 （我同我婿住蕲春，迄今莫敢齐座）
+
+
+
 选择器自大后空
 大于号 >：子代选择器 (Child Selector)，空格：后代选择器 (Descendant Selector)
+
 选择器：
 双冒号 "::": 伪元素选择器 (Pseudo-elements)，选中元素的特定部分，或者向元素中插入虚拟内容
 单冒号 ":":伪类选择器 (Pseudo-classes)，定义元素的特殊状态
@@ -104,16 +117,19 @@
 加号 +：相邻兄弟选择器 (Adjacent Sibling Selector)
 星号 *：通用选择器 (Universal Selector)
 大于号 >：子代选择器 (Child Selector)，空格：后代选择器 (Descendant Selector)
+
 选择器：
 耍猫委员打猫为乐
 拨通家乡兄弟系统
 打制箜篌
+
 position：
 绝对定位：absolute，最近的非 static 祖先
 相对定位：relative，参照自己
 静态定位：static，默认值，偏移量：top、bottom、left、right 以及 z-index 对其无效
 固定定位：fixed，相对于浏览器窗口固定位置
 粘性定位：sticky，relative 和 fixed 的混合体，必须设置 top/bottom/left/right 中的至少一个值，否则表现同 relative
+
 position信息
 position：
 竟向绝谷碾
@@ -121,6 +137,7 @@ position：
 固窗口粘四角
 固定窗口，价位便摆平（加位置变换百分比平移），复原变换失效
 （父元素加上transform变换会让fixed失效）
+
 flex布局：
 父属性：
 住房负担（主轴方向：flex-direction）
@@ -129,6 +146,8 @@ flex布局：
 组队检查（主轴对称：justify-content）
 校对AI（交叉对称：align-items）
 夺走爱财（多对称轴对称：align-content）
+检举港片（间距：gap）
+
 子属性：
 住处帆布(主轴初始尺寸：flex-basis)
 放大覆盖(放大：flex-grow)
@@ -138,9 +157,16 @@ flex布局：
 （flex→flex参数）
 放缩基准(缩写：放大 缩小 基准)
 （flex参数→重要技巧）
+外系谜案(外边距吸收: magin-xx:auto)
 剩款复议(占据剩余宽度：flex:1)
 校对暗示(交叉轴对错：align self)
 顺序默认(顺序：order)
+
+
+外边距吸收（撑开间距）：margin-top: auto;，
+剩余宽度吸收（撑大自己）：flex: 1
+margin-top: auto;对flex、grid有效，block无效
+
 主轴对齐方式：
 space-between：两端对齐
 space-around：中间翻倍
@@ -151,16 +177,20 @@ space-evenly：间距相等
 交叉轴对齐
 拉伸中层级别
 (拉伸: stretch 中层: center 基线: baseline)
+
 交叉轴对齐
 拉伸中层级别
 (拉伸: stretch 中层: center 基线: baseline)
+
 字体缩小
 最外：container-type inline-size
 内：white-space nowrap font-size cqi
+
 直说
 最外：传统饮食
 内为十年纺纱厂
 （如果不是最外，则没一级宽度变化，都要改一次font-size，写最外层有利于统一缩放）
+
 伪元素
 内容：content
 定位：position
@@ -173,8 +203,180 @@ z顺序：z-index
 父表情：定位非静态
 伪元素，内定或限，为矿制备，苦地废机
 伪元素，内定或限，尾款被指，封顶费基
+
 百分比缩放：
 匹配不上成本爆表
 (padding, percentage, box-sizing, content-box, border-box)
 黯然无视好
 (aspect-ratio, width, slash, height)
+黯然→限外不限内
+无视→无视被通报
+（aspect-ratio，只限外部，不限内部，被捅爆）
+
+
+
+图片缩放规则：
+img：需要有明确宽高
+object-fit
+cover: 完全填充，裁剪多余
+contain: 保持比例，内部留白
+fill：拉伸挤压
+none：保持原始
+scale-down：none 和 contain选最小，小图不放大，大图自适应缩小
+
+object-fit
+铺满容器并裁剪：cover
+完整显示并留白：contain
+拉伸变形填满：fill
+保持原图大小：none
+控制对齐位置：object-position
+
+background-size
+铺满容器并裁剪：cover
+完整显示并留白：contain
+拉伸变形填满：100% 100%
+保持原图大小：auto
+控制对齐位置：background-position
+
+
+object-fit，background-position
+office backup
+办公室后备人员
+
+短边适应：cover
+长边适应：contain
+原图：n/a，（none auto）（‌n/a‌ ，英语“Not Applicable”，不适用）
+拉伸：fill两百
+大图缩小小图不变：scale-down
+
+
+子绝父相
+关闭按钮
+播放器按钮
+（上一个视频“<”和下一个视频”>“）
+下拉菜单
+（父菜单:hover 子菜单{ display: block; }）
+进度条
+（音频进度条，上传进度条，改变子元素的width来实现进度的增加）
+
+搜索框放大镜图标
+（防止文字和图标叠在一起，加padding）
+（进阶技巧：让鼠标点击穿透图标，直接选中后面的输入框pointer-events:none;）
+
+密码框右侧的“睁眼/闭眼”图标
+（防止文字和图标叠在一起，加padding，box-sizing: border-box;）
+
+（子: absolute，父: relative）
+图片文字标注
+（图片上加文字，如“热销”、“折扣”）
+遮罩上文字
+（当鼠标悬停在图片上时，出现一个半透明的黑色遮罩，上面显示“查看详情”字样）
+居中对齐
+
+（表单）
+复选单选美化
+（原生复选框Checkbox和单选框Radio非常难看，用伪元素美化）
+浮动标签
+（input后面兄弟元素是label，label和父元素子绝父相，压在input上面，input有focus的时候标签浮动，加号选择器，label用pointer-events: none;）
+错误提示
+（+控制input相邻的error message，error message放底部）
+
+关闭播放器按钮
+（关闭按钮、播放器按钮）
+瞎猜进度
+（下拉菜单、进度条）
+放大眼睛图标
+（放大镜按钮、眼睛按钮）
+（检查）
+图文遮罩文
+（图片文字标注、遮罩上文字）
+居中对齐
+
+（表单内）
+负担美化 浮标 错误提示
+（复选、单选、浮动标签、错误提示）
+
+
+判定失效换波波
+（padding失效换border-box）
+
+显式网络
+冥王去沟通下
+（命名网格区域：grid-template-areas）
+同去无口巨星
+（口-孔，同区域是无孔的矩形）
+好以裂空分割
+(好-行，行用引号列用空格分隔)
+空白占位多点
+（空白地方占位用多个点）
+
+水平局谁直刷
+（水平justify-，谁-垂，垂直align-）
+水平均垂直炸
+（水平justify-，谁-垂，垂直align-）
+排除暗处军产
+（place-content：align-content + justify-content）
+多格整体勘探
+单格内部碍事
+（多格整体对齐content，单个内部对齐：items）
+否认勘探失效
+（fr沾满剩余空间，导致justify-content和align-content看起来失效）
+
+
+半隐式网格（混合使用的布局）
+自发选更麻烦
+（置放算法：grid-auto-flow）
+行列组合禁摩
+（grid-auto-flow可以用行row/列column+紧凑模式dense）
+现公投以规划
+（显式grid-template-xx，隐式grid-auto-xx，xx可能为rows或者columns）
+常设先烈银行
+（常用搭配，显式列grid-template-columns，隐式行grid-template-rows）
+
+
+重复锐评斥资
+(重复，repeat，次数，值)
+自动填充下方
+(自动平铺auto-fill，不铺满)
+自动平铺花房
+(自动平铺auto-fit，铺满，两侧对齐，较常用)
+均分空间放任
+(均分空间fr)
+限制范围买卖
+(限制范围minmax)
+支款最大复查
+(自适应宽度最大:fit-content(limit))
+
+
+
+w不发音
+playwright /ˈpleɪraɪt/ (剧作家)
+wrestle /ˈresl/ (摔跤)
+write /raɪt/ (写)
+wrong /rɒŋ/ (错误的)
+wreck /rek/ (失事，残骸)
+wrap /ræp/ (包裹)
+
+wrath /rɔːθ/ (愤怒)
+wring /rɪŋ/ (拧，绞)
+wrist /rɪst/ (手腕)
+wrinkle /ˈrɪŋkl/ (皱纹)
+
+two /tuː/ (二) - 读音和 to、too 完全一样
+awkward /ˈɔːkwərd/ 尴尬的
+sword /sɔːd/ (剑) - 直接读作 "sord"
+answer /ˈɑːnsə(r)/ 或 /ˈænsər/ (回答) - 这里的 "w" 完全不发音
+
+whole /həʊl/ (整个的)
+who /huː/ (谁)
+whose /huːz/ (谁的)
+whom /huːm/ (谁的宾格)
+
+剧作家摔跤
+写错失事包裹
+愤怒拧手腕
+（出现↓）
+皱纹
+
+征谁的兵
+尔敢简答
