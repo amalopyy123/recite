@@ -82,7 +82,7 @@
 后宫佳丽三千人，三千宠爱在一身。
 金屋妆成娇侍夜，玉楼宴罢醉和春。
 （后宫三千→金屋藏娇，啪啪，43）
-（孕妇蠢虫，城村后山禁欲）
+（孕妇蠢冲，城村后山禁欲）
 姊妹弟兄皆列土，可怜光彩生门户。
 遂令天下父母心，不重生男重生女。
 （三里屯下）
@@ -507,7 +507,7 @@
 忧从中来，不可断绝。
 越陌度阡，枉用相存。
 （月末赌钱，网友相劝）
-契阔谈?，心念旧恩。(谈? 一作：谈宴/谈讌)
+契阔谈䜩，心念旧恩。(谈䜩 一作：谈宴/谈讌)
 （期货跳跃，思念旧恩）
 （没有运气）
 
@@ -587,12 +587,12 @@
 Markdown
 井中坐（＃中左）
 看星象出分（*斜粗分）
-一半音（1 backtick inline）量听不出（three backticks code）
+一半音量（1 backtick inline）听不出（three backticks code）
 两波删德玛（~~Strikeout~~）(==Mark==)
 三天（!!!）四科(4 space)英（info）文(warning)难(note)顶(danger)
 恶魔跟她剧透一整行（exclamation mark great than spoiler）
 鬼天气可重叠（> quote 可重叠）
-谈不下他（就）不谈（!~Text~!），发出来平躺（分号, color, line style, place, thickness）
+谈不谈不谈（!~Text~!），发出来平躺（分号, color, line style, place, thickness）
 探讨防弹园林（叹 图  方 description 圆 link）
 当时不上班很空虚（dash space bracket space bracket）
 当时不下班很充实（dash space bracket x bracket）
@@ -1139,7 +1139,7 @@ mn辅音震动
 
 　　爷娘闻女来，出郭相扶将；阿姊闻妹来，当户理红妆；小弟闻姊来，磨刀霍霍向猪羊。开我东阁门，坐我西阁床。脱我战时袍，著我旧时裳。当窗理云鬓，对镜帖花黄。出门看火伴，火伴皆惊忙：同行十二年，不知木兰是女郎。
 
-阿姊：当窗理红妆
+阿姊：当户理红妆
 木兰：当窗理云鬓
 阿姊：红
 木兰：黄

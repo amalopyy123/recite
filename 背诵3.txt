@@ -1,3 +1,16 @@
+colour: n.颜色
+coloured: adj.有颜色的
+tricolour:/ˈtraɪkʌlər/ n.三色旗
+colourless: adj.无色的
+recolour: v.重新上色
+uncoloured: adj.未着色的
+discolour: v.褪色
+watercolour: n.水彩
+颜色组合：
+有三无从未退税
+
+
+
 琵琶行
 白居易
 元和十年，予左迁九江郡司马。
@@ -27,6 +40,7 @@
 
 
 忽闻水上琵琶声，主人忘归客不发。
+（忽闻水上—和我说声）
 寻声暗问弹者谁，琵琶声停欲语迟。
 移船相近邀相见，添酒回灯重开宴。
 （添酒回灯—唐吉诃德）
@@ -146,7 +160,12 @@ flex布局：
 组队检查（主轴对称：justify-content）
 校对AI（交叉对称：align-items）
 夺走爱财（多对称轴对称：align-content）
+非卖陌生
+(align-items，默认stretch)
+加注等割
+（交叉轴等高）
 检举港片（间距：gap）
+
 
 子属性：
 住处帆布(主轴初始尺寸：flex-basis)
@@ -321,6 +340,12 @@ office backup
 （多格整体对齐content，单个内部对齐：items）
 否认勘探失效
 （fr沾满剩余空间，导致justify-content和align-content看起来失效）
+
+建协先拨厚银
+(简写，先block，垂直方向，后inline，水平方向)
+排查破百磐石
+(place-content, place-items, place-self)
+
 
 
 半隐式网格（混合使用的布局）
