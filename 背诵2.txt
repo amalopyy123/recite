@@ -760,6 +760,22 @@ SRY基因：SRY→睾丸→睾酮（死人妖搞完沟痛），SRY缺失（斯�
 二娘里的
 旧城情怀
 
+By Andrey Kneller：
+If by life you were deceived,
+Don't be dismal, don't be wild!
+In the day of grief, be mild.
+Merry days will come, believe.
+Heart is living in tomorrow;
+Present is dejected here;
+In a moment, passes sorrow;
+That which passes will be dear.
+（wild—mild）
+（be mild—believe）
+（present，here，现，在，现在却常是忧郁）
+（In the day，Merry days）
+（一切都将会过去）
+
+
 preventDefault：
 右键拖链表滚动，单复选取
 右键菜单（contextmenu）
@@ -803,6 +819,66 @@ deleteCell(index)
 （青海—黄沙）
 （宠妻忘情，故缓步）
 
+常需面对，
+类名书法，
+佛系模仿，
+生成链表，
+迭代新作
+===
+参数顺序
+（面向对象）
+封装
+继承
+多态
+
+类属性方法
+类命名
+属性（类实例，一般特殊）
+方法（低调模仿，发型类似→定义调用，魔术方法，方法类型，类型提示）
+
+佛系
+魔法方法
+
+生成器
+lambda表达式
+迭代
+*的作用
+
+===
+函数参数顺序：
+*args 收集位置参数（成元组）
+kwargs 收集关键字参数（成字典）
+位置参数->默认值参数->*args->仅关键字参数 (可带默认值)->kwargs
+卫漠首位成员（元组），广漠守关称职（字典）
+死前极限卫厂（slash/之前仅限位置参数）
+
+
+（面向对象）
+封装
+单下划线 _ (Protected)
+双下划线 __ (Private): 会触发命名修饰 (Name Mangling)
+
+继承：
+class Child(Parent)
+super()：调用父类
+调用父类__init__：
+super().init(...)，不加self，因为super()返回到对象隐式绑定了
+客服累，食谱调用复累，厨师不笑
+（括号父类，super调用父类，初始函数__init__不加self）
+
+多态：
+子类覆盖父类，父类调用子类
+self子类，super()父类
+调用自己：指明私有服装
+
+子类同名方法/属性会覆盖父类，父类通过self可能会调用到子类的方法
+self指向子类，super()指向父类
+调用自己方法：
+指明自己类名.method()
+私有成员加__
+final装饰器：防君子不防小人，仅编译器报红线
+
+
 Falsy和None
 Falsy值(相对于Truthy值)
 None, {}, [], False, set(), (), 0, ''
@@ -812,13 +888,13 @@ is None
 is not None
 ==可以被重载
 
-python常用魔法方法：
+魔法方法：
 友好构造，模拟容器运算，调用与比较
-友好：没有用户友好的fallback（回退）为开发友好
+友好：用户友好fallback（回退）到开发友好
 repr,str
 构造调用真构造，析构del时机不确定
 init,new
-模拟容器各地设item啃烂it
+模拟容器，各地设item啃烂it
 getitem,delitem,setitem,contains,len,iter
 运算加减乘真除
 add,sub,mul,truediv(truediv__对比地板除__floordiv，//)
@@ -833,8 +909,14 @@ eq,lt,@total_ordering
 类名大驼峰(PascalCase)
 Dunder Methods："Dunder" 是 "Double Under" (双下划线) 的缩写，魔法方法
 
+属性：
+实例属性加self，类属性共享
+特殊属性
+dict：一般实例带__dict__
+slots：优化实例不带__dict__
+
 方法：
-魔法方法：
+魔法方法（友好构造，模拟容器运算，调用与比较）
 定义加self，调用不加self
 
 方法的三种类型：
@@ -851,41 +933,39 @@ Dunder Methods："Dunder" 是 "Double Under" (双下划线) 的缩写，魔法�
 括号内variable:类型，括号外->类型
 类属性：类在前
 
-属性：
-特殊属性
-dict：一般实例带__dict__
-slots：优化实例不带__dict__
-实例属性加self，类属性共享
 
-继承：
-class Child(Parent)
-super()：调用父类
-调用父类__init__：
-super().init(...)，不加self，因为super()返回到对象隐式绑定了
-客服累，食谱调用复累，厨师不笑
-（括号父类，super调用父类，初始函数__init__不加slef）
-
-封装
-单下划线 _ (Protected)
-双下划线 __ (Private): 会触发命名修饰 (Name Mangling)
-
-类名大驼峰(PascalCase)
-方法：
-魔法方法：
-定义加self，调用不加self
-
-方法的三类型：
-实力驾校无装饰
-累驾车老师沉默装饰
-静态无要求什么装饰
+python创建生成器
+调用生成器函数
+yield代替return
+生成器表达式
+恶妇四爱啃小括号
+钓神一代人，省标恶妇
 
 
+lambda表达式：
+牢孔颤抖分猫饭
+lambda，空白，参数逗号分割，冒号，返回值
+返回值不能是语句（如 if, for 等），可以使用三目运算符（可以用 A if condition else
+ B 这种三目运算符代替）
 
-函数参数顺序：
-*args 收集位置参数（成元组）
-kwargs 收集关键字参数（成字典）
-位置参数->默认值参数->*args->仅关键字参数 (可带默认值)->kwargs
-卫漠首位成员（元组），广漠守关称职（字典）
+ 
+迭代：
+iter
+入可迭代对象，出迭代器对象
+入长安可调用(callable)？省厅内哨兵判断（sentinel）
+next
+二仓地方，艺社事多疑谈雷神
+第二个参数default，或者except StopIteration:
+异常-不捕获异常：
+不捕获异常-疯女人：
+for遍历：
+next默认值：
+需要 容器转换
+容器转换，性质内累购：
+星解包字面量(Literal)，内置类型构造器
+my_list1=[*my_iterator]
+my_list2=list(my_iterator)
+
 
 
 *的作用
@@ -902,37 +982,6 @@ kwargs 收集关键字参数（成字典）
 单星号解包任何可迭代对象 (Iterable)
 双星号解包映射对象(Mapping)
 单星号解包映射对象返回keys
-
-
-迭代：
-iter
-入可迭代对象，出迭代器对象
-入长安可调用(callable)？省厅内哨兵判断（sentinel）
-next
-二仓地方，艺社事多疑谈雷神
-第二个参数default，或者except StopIteration:
-异常-不捕获异常：
-不捕获异常-疯女人：
-for遍历：
-next默认值：
-容器转换，性质内累购：
-星解包字面量(Literal)，内置类型构造器
-my_list1=[*my_iterator]
-my_list2=list(my_iterator)
-
-
-python创建生成器
-调用生成器函数
-yield代替return
-生成器表达式
-恶妇四爱啃小括号
-钓神一代人，省标恶妇
-
-
-lambda表达式：
-牢孔颤抖分猫饭
-lambda，空白，参数逗号分割，冒号，返回值
-返回值不能是语句（如 if, for, print() 等），可以使用三目运算符
 
 英语的a和an
 An honest MBA student from a European university, who is also an heir to a fortune, sent an SOS call about an hour ago because he saw a unicorn on a one-way street.
@@ -1202,78 +1251,3 @@ consensus /kənˈsensəs/
 交单管饭
 绵谷竞合
 官职饱和
-
-
-
-bro实力，交际队列一拳kill
-broker就是一个rabbitmq的实例，包括exchange（交换机）和queue（队列）
-
-集群：普通警队扣篮对
-（普通集群，镜像对称集群，Quorum队列集群）
-
-普通交换机，警队加队列，扣篮对选举
-（普通集群：同步exchange，镜像对称集群：加上队列，Quorum队列集群：选举主节点解决脑裂问题）
-
-命中直接返，不中找麻烦，补充示例图
-（命中直接返回数据，不命中找master queue弄到数据后返回，不从slave节点读数据）
-
-
-redis面试：
-换套车鸡肋
-脑裂被缓存
-高性能可用
-
-Redis缓存淘汰策略：
-不淘汰，快过期
-欧克斯，我来偷，谁试吃
-（all key，volatile，随机次数时间）
-随机次数时间（谁吃屎）
-
-基本类型
-Redis的基本数据类型（其实还有高级数据类型）：
-Hash：哈希，存储结构化对象。
-List：列表，消息队列、时间轴。
-String：字符串，万能存储、计数、分布式锁。
-Set：集合，去重、集合运算（共同好友）。
-SortedSet：有序集合，排行榜、带权重的列表。
-redis的基本数据类型：
-含劣质机油（哈希，列表，字符串，集合，有序集合）
-
-解决脑裂：从少阈值，主禁写数
-解决脑裂问题：从节点数量少于阈值，禁止主节点写数据
-
-备份：
-快意追魂（意-日）
-RDB：Redis Database，快照模式
-AOF：Append Only File，日志追加模式
-RDB + AOF Hybrid：混合持久化
-
-缓存：
-缓存船积雪
-无缓存被穿透
-（无缓存→有缓存）热点key被击穿
-大企失效，挂机雪崩
-
-redis缓存：
-缓存穿透：查不到数据（缓存和 DB 都没有）
-缓存击穿：热点key失效
-缓存雪崩：同一时间大规模key失效或者Redis挂了
-
-高性能：
-纯草书解忧
-单只爱豆腐
-纯内存操作：消除了硬盘 I/O。
-数据结构优化：针对不同场景使用最快的数据结构
-单线程执行：消除了锁竞争和线程切换。
-I/O 多路复用：单线程处理海量并发连接。
-
-高可用：
-吃住消极模式
-主从人工切换Master
-（人工→自动）哨兵自动故障转移
-集群分片存储数据
-
-持久化：保证重启后数据不丢失
-主从模式：读写分离，数据备份，人工干预
-哨兵模式：自动故障转移
-集群模式：横向扩展（哈希槽分片机制） + 自动故障转移
